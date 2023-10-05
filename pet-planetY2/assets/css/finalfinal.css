@@ -1,0 +1,5654 @@
+body {
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    background-image: url(../img/YImages/new.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/**************************navbar start***********************************************/
+.navbar {
+    background-color: white;
+}
+
+.navbar .container {
+    max-width: 1650px;
+}
+
+.navbar .container div ul .nav-item .nav-link {
+    font-family: gody;
+    font-size: 25px;
+    color: #0F1010;
+    margin-left: 30px;
+}
+
+.navbar .container div ul .nav-item .nav-link:hover {
+    color: #DB8989;
+}
+
+.navbar .container div ul .active .nav-link {
+    color: #DB8989;
+}
+
+.navbar .container .navbar-brand img {
+    position: absolute;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    border-radius: 10px
+}
+
+/**************************navbar end***********************************************/
+
+.aboutcontent .aboutcontainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    margin: 0px;
+    margin-top: 6%;
+}
+
+.aboutcontent .aboutcontainer .pink {
+    background-color: #f8cace;
+    border: solid #dcbfc1 1px;
+    position: absolute;
+    top: 4%;
+    z-index: 3;
+    width: 60%;
+    height: 10%;
+    left: 0px;
+}
+
+.aboutcontent .aboutcontainer .pink h4 {
+    font-family: Script MT;
+    color: #db8989;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.aboutcontent .aboutcontainer .ChestnutRose {
+    background-color: #cf6262;
+    border: solid #c77070 1px;
+    color: white;
+    font-family: Rockwell;
+    text-align: left;
+    padding: 60px 48px;
+    z-index: 10;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    z-index: 3;
+    width: 35%;
+    height: 20%;
+}
+
+.aboutcontent .aboutcontainer .ChestnutRose h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.aboutcontent .aboutcontainer .ChestnutRose p {
+    font-size: 18px;
+    color: white;
+}
+
+.aboutcontent .aboutcontainer .image {
+    position: absolute;
+    background-image: url(../img/YImages/aboutimg.png);
+    background-size: cover;
+    background-position: inherit;
+    top: 23%;
+    left: 70%;
+    z-index: 2;
+    width: 30%;
+    height: 22%;
+}
+
+.aboutcontent .aboutcontainer .image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/**************************about end*************************************/
+/***************************contactus start********************************/
+.contactcontent .container {
+    background-image: url(../img/YImages/contactimgg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    position: fixed;
+    left: 200px;
+    margin-top: 100px;
+}
+
+.contactcontent .container .contactform {
+    background-color: white;
+    border: solid #eae0e0 1px;
+    display: flex;
+    text-align: center;
+    width: 800px;
+    height: 450px;
+    margin: 130px auto;
+}
+
+.contactcontent .container .contactform .left,
+.right {
+    padding: 70px 50px;
+    display: inline-block;
+}
+
+.contactcontent .container .contactform .left h1 {
+    color: #db8989;
+    font-family: Gill Sans MT;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contactcontent .container .contactform .left p {
+    font-family: Gill Sans MT;
+    color: #0F1010;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.contactcontent .container .contactform .right input {
+    background-color: #f5f5f5;
+    border: solid #e7e7e7 1px;
+    color: #9d9d9d;
+    width: 350px;
+    height: 50px;
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+.contactcontent .container .contactform .right button {
+    width: 350px;
+    height: 50px;
+    background-color: #db8989;
+    color: white;
+    font-size: 25px;
+    border: solid #db8989 1px;
+    font-weight: bold;
+}
+
+/***************************contactus end********************************/
+
+/***************************customer profile start******************************/
+.profilecontent {
+    background-image: url(../img/YImages/profileimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    margin-top: 150px;
+}
+
+.profilecontent .container .userinfo {
+    background-color: white;
+    border: solid #707070 1px;
+    border-radius: 80px;
+    width: 600px;
+    height: 520px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.profilecontent .container .userinfo h2 {
+    font-weight: bold;
+    color: #CF6262;
+    font-size: 40px;
+}
+
+.profilecontent .container .userinfo a img {
+    height: 30px;
+    width: 30px;
+    margin-left: 450px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.profilecontent .container .userinfo .userimg img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: solid white 5px;
+    margin-top: -150px;
+    margin-bottom: 3%px;
+}
+
+.profilecontent .container .userinfo .aboutuser {
+    border: solid #707070 1px;
+    border-radius: 60px;
+    width: 550px;
+    height: 350px;
+    margin: auto;
+}
+
+.profilecontent .container .userinfo .aboutuser .head img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.profilecontent .container .userinfo .aboutuser .head h3 {
+    display: inline;
+    color: black;
+    font-weight: bold;
+}
+
+.profilecontent .container .userinfo .aboutuser .head {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profilecontent .container .userinfo .aboutuser .all {
+    display: flex;
+}
+
+.profilecontent .container .userinfo .aboutuser .left {
+    text-align: left;
+    margin-left: 65px;
+    color: #cf6262;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.profilecontent .container .userinfo .aboutuser .right {
+    font-size: 25px;
+    margin-top: -70px;
+}
+
+.profilecontent .container .mypets {
+    background-color: white;
+    border: solid #707070 1px;
+    width: 600px;
+    padding: 2% 0%;
+    height: fit-content;
+    border-radius: 60px;
+    margin: auto;
+}
+
+.profilecontent .container .mypets h2 {
+    text-align: left;
+    color: black;
+    margin: 2% 9%;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.profilecontent .container .mypets p {
+    margin: auto;
+    color: #cf6262;
+    font-size: 25px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.profilecontent .container .mypets input {
+    background-color: #CF6262;
+    border: solid #cf6262;
+    border-radius: 40px;
+    width: 60%;
+    height: 10%;
+    font-weight: bolder;
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+    margin-top: 50px;
+}
+
+.profilecontent .container .mypets .pet {
+    margin-top: 20px;
+    margin: 2% 10% 2% 10%;
+    display: inline-block;
+}
+
+.profilecontent .container .mypets .pet img {
+    width: 170px;
+    height: 180px;
+    border-radius: 30%;
+    border: solid #cf6262 1px;
+}
+
+.profilecontent .container .mypets .pet p {
+    margin-top: 5px;
+    margin-bottom: -70px;
+
+}
+
+/***************************customer profile end********************************/
+
+/***************************vet profile start******************************/
+.vetprofilecontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    margin-top: 170px;
+}
+
+.vetprofilecontent .container .vetinfo {
+    background-color: white;
+    border: solid #707070 1px;
+    border-radius: 80px;
+    width: 600px;
+    height: 520px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.vetprofilecontent .container .vetinfo h2 {
+    font-weight: bold;
+    color: #CF6262;
+    font-size: 40px;
+}
+
+.vetprofilecontent .container .vetinfo a img {
+    height: 6%;
+    width: 5%;
+    margin-left: 450px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.vetprofilecontent .container .vetinfo .vetimg img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: solid white 5px;
+    margin-top: -150px;
+    margin-bottom: 3%px;
+}
+
+.vetprofilecontent .container .vetinfo .aboutvet {
+    border: solid #707070 1px;
+    border-radius: 60px;
+    width: 550px;
+    height: 350px;
+    margin: auto;
+}
+
+.vetprofilecontent .container .vetinfo .aboutvet .head img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.vetprofilecontent .container .vetinfo .aboutvet .head h3 {
+    display: inline;
+    color: black;
+    font-weight: bold;
+}
+
+.vetprofilecontent .container .vetinfo .aboutvet .head {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.vetprofilecontent .container .vetinfo .aboutvet .all {
+    display: flex;
+    margin: auto;
+}
+
+.vetprofilecontent .container .vetinfo .aboutvet .left {
+    text-align: left;
+    margin-left: 65px;
+    color: #cf6262;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.vetprofilecontent .container .vetinfo .aboutvet .right {
+    font-size: 25px;
+    margin-top: -70px;
+    width: 60%;
+}
+
+.vetprofilecontent .container .myclinics {
+    background-color: white;
+    border: solid #707070 1px;
+    width: 900px;
+    min-height: 900px;
+    height: fit-content;
+    border-radius: 80px;
+    margin: auto;
+}
+
+.vetprofilecontent .container .myclinics>hr {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.vetprofilecontent .container .myclinics h2 {
+    text-align: left;
+    color: #707070;
+    margin-top: 40px;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.vetprofilecontent .container .myclinics>p {
+    margin: auto;
+    color: #cf6262;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.vetprofilecontent .container .myclinics .clinic h4 {
+    margin-top: 3%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.vetprofilecontent .container .myclinics .clinic .edit a img {
+    height: 10%;
+    width: 4%;
+    margin-left: 30%;
+    margin-top: -10%;
+    cursor: pointer;
+}
+
+.vetprofilecontent .container .myclinics .clinic>button {
+    background-color: #CF6262;
+    border: solid #cf6262;
+    border-radius: 40px;
+    width: 25%;
+    height: 10%;
+    margin-left: 70%;
+    margin-top: -15%;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.vetprofilecontent .container .myclinics button a {
+    text-decoration: none;
+    color: white;
+}
+
+.vetprofilecontent .container .myclinics .clinic .all-1 {
+    display: flex;
+}
+
+.vetprofilecontent .container .myclinics .clinic .all-1 .left-1 {
+    padding: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15%;
+}
+
+.vetprofilecontent .container .myclinics .clinic .all-1 .left-1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.vetprofilecontent .container .myclinics .clinic .all-1 .right-1 {
+    padding: 0px;
+}
+
+.vetprofilecontent .container .myclinics .all-1 .right-1 .clinicinfo {
+    border: solid #707070 1px;
+    border-radius: 15%;
+    width: 600px;
+    height: 520px;
+}
+
+.vetprofilecontent .container .myclinics .all-1 .right-1 .clinicinfo .all-2 {
+    display: flex;
+    padding: 5% 8%;
+}
+
+.vetprofilecontent .container .myclinics .all-1 .right-1 .clinicinfo .all-2 .left-2 {
+    width: 30%;
+    font-size: 25px;
+}
+
+.vetprofilecontent .container .myclinics .all-1 .right-1 .clinicinfo .all-2 .right-2 {
+    width: 70%;
+    font-size: 25px;
+}
+
+.vetprofilecontent .container .myclinics .all-1 .right-1 .clinicinfo .all-2 .left-2 p {
+    color: #CF6262;
+    font-weight: bold;
+}
+
+.vetprofilecontent .container .myclinics button {
+    background-color: #CF6262;
+    border: solid #cf6262;
+    border-radius: 40px;
+    width: 50%;
+    height: 8%;
+    font-weight: bolder;
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.vetprofilecontent .container .myclinics button a {
+    text-decoration: none;
+    color: white;
+}
+
+/***************************vet profile end********************************/
+
+
+/***************************hotel owner start******************************/
+.HotelManagerProfilecontent {
+    background-image: url(../img/YImages/profileimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    margin-top: 170px;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo {
+    background-color: white;
+    border: solid #707070 1px;
+    border-radius: 80px;
+    width: 600px;
+    height: 520px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo h2 {
+    font-weight: bold;
+    color: #CF6262;
+    font-size: 40px;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo a img {
+    height: 6%;
+    width: 5%;
+    margin-left: 450px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo .ownerimg img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: solid white 5px;
+    margin-top: -150px;
+    margin-bottom: 3%px;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo .aboutowner {
+    border: solid #707070 1px;
+    border-radius: 60px;
+    width: 550px;
+    height: 350px;
+    margin: auto;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo .aboutowner .head img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo .aboutowner .head h3 {
+    display: inline;
+    color: black;
+    font-weight: bold;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo .aboutowner .head {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo .aboutowner .all {
+    display: flex;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo .aboutowner .left {
+    text-align: left;
+    margin-left: 65px;
+    color: #cf6262;
+    font-weight: bold;
+    font-size: 25px;
+    width: 30%;
+}
+
+.HotelManagerProfilecontent .container .ownerinfo .aboutowner .right {
+    font-size: 25px;
+    margin-top: -70px;
+    width: 70%;
+}
+
+.HotelManagerProfilecontent .container .myhotels {
+    background-color: white;
+    border: solid #707070 1px;
+    width: 900px;
+    min-height: 720px;
+    height: fit-content;
+    border-radius: 80px;
+    margin: auto;
+}
+
+.HotelManagerProfilecontent .container .myhotels>hr {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.HotelManagerProfilecontent .container .myhotels h2 {
+    text-align: left;
+    color: #707070;
+    margin-top: 40px;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.HotelManagerProfilecontent .container .myhotels>p {
+    margin: auto;
+    color: #cf6262;
+    font-size: 25px;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.HotelManagerProfilecontent .container .myhotels .hotel h4 {
+    margin-top: 3%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.HotelManagerProfilecontent .container .myhotels .hotel .edit a img {
+    height: 10%;
+    width: 4%;
+    margin-left: 30%;
+    margin-top: -10%;
+    cursor: pointer;
+}
+
+.HotelManagerProfilecontent .container .myhotels .hotel>button {
+    background-color: #CF6262;
+    border: solid #cf6262;
+    border-radius: 40px;
+    width: 25%;
+    height: 10%;
+    margin-left: 70%;
+    margin-top: -15%;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.HotelManagerProfilecontent .container .myhotels .hotel .all-1 {
+    display: flex;
+}
+
+.HotelManagerProfilecontent .container .myhotels .hotel .all-1 .left-1 {
+    padding: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 8%;
+}
+
+.HotelManagerProfilecontent .container .myhotels .hotel .all-1 .left-1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.HotelManagerProfilecontent .container .myhotels .hotel .all-1 .right-1 {
+    padding: 0px;
+}
+
+.HotelManagerProfilecontent .container .myhotels .all-1 .right-1 .hotelinfo {
+    border: solid #707070 1px;
+    border-radius: 60px;
+    width: 600px;
+    height: 350px;
+}
+
+.HotelManagerProfilecontent .container .myhotels .all-1 .right-1 .hotelinfo .all-2 {
+    display: flex;
+    font-size: 25px;
+    padding: 10% 10%;
+}
+
+.HotelManagerProfilecontent .container .myhotels .all-1 .right-1 .hotelinfo .all-2 .left-2 {
+    width: 30%;
+}
+
+.HotelManagerProfilecontent .container .myhotels .all-1 .right-1 .hotelinfo .all-2 .right-2 {
+    width: 70%;
+}
+
+.HotelManagerProfilecontent .container .myhotels .all-1 .right-1 .hotelinfo .all-2 .left-2 p {
+    color: #CF6262;
+    font-weight: bold;
+}
+
+.HotelManagerProfilecontent .container .myhotels .all-1 .right-1 .hotelinfo .all-2 .right-2 span {
+    color: #feb900;
+}
+
+.HotelManagerProfilecontent .container .myhotels button {
+    background-color: #CF6262;
+    border: solid #cf6262;
+    border-radius: 40px;
+    width: 50%;
+    height: 8%;
+    font-weight: bolder;
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.HotelManagerProfilecontent .container .myhotels button a {
+    text-decoration: none;
+    color: white;
+}
+
+/***************************hotel owner profile end********************************/
+
+
+/***************************sitter/trainer start******************************/
+.sitterprofilecontent {
+    background-image: url(../img/YImages/profileimg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    margin-top: 170px;
+}
+
+.sitterprofilecontent .container .sitterinfo {
+    background-color: white;
+    border: solid #707070 1px;
+    border-radius: 80px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.sitterprofilecontent .container .sitterinfo h2 {
+    font-weight: bold;
+    color: #CF6262;
+    font-size: 40px;
+}
+
+.sitterprofilecontent .container .sitterinfo a img {
+    height: 6%;
+    width: 5%;
+    margin-left: 450px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.sitterprofilecontent .container .sitterinfo .sitterimg img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: solid white 5px;
+    margin-top: -150px;
+    margin-bottom: 3%px;
+}
+
+.sitterprofilecontent .container .sitterinfo .aboutsitter {
+    border: solid #707070 1px;
+    border-radius: 60px;
+    width: 550px;
+    height: 430px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.sitterprofilecontent .container .sitterinfo .aboutsitter .head img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sitterprofilecontent .container .sitterinfo .aboutsitter .head h3 {
+    display: inline;
+    color: black;
+    font-weight: bold;
+}
+
+.sitterprofilecontent .container .sitterinfo .aboutsitter .head {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sitterprofilecontent .container .sitterinfo .aboutsitter .all {
+    display: flex;
+}
+
+.sitterprofilecontent .container .sitterinfo .aboutsitter .left {
+    text-align: left;
+    margin-left: 65px;
+    color: #cf6262;
+    font-weight: bold;
+    font-size: 25px;
+    width: 30%;
+}
+
+.sitterprofilecontent .container .sitterinfo .aboutsitter .right {
+    font-size: 25px;
+    margin-top: -70px;
+    width: 80%;
+}
+
+.sitterprofilecontent .container .myservice {
+    background-color: white;
+    border: solid #707070 1px;
+    width: 600px;
+    min-height: 430px;
+    height: fit-content;
+    border-radius: 80px;
+    margin: auto;
+}
+
+.sitterprofilecontent .container .myservice h2 {
+    text-align: left;
+    color: #707070;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sitterprofilecontent .container .myservice .serviceinfo {
+    border: solid #707070 1px;
+    border-radius: 60px;
+    width: 500px;
+    min-height: 250px;
+    height: fit-content;
+    margin: auto;
+}
+
+.sitterprofilecontent .container .myservice .serviceinfo .all-2 {
+    display: flex;
+    font-size: 20px;
+    padding: 10% 5%;
+    font-size: 25px;
+
+}
+
+.sitterprofilecontent .container .myservice .serviceinfo .all-2 .left-2 {
+    width: 30%;
+}
+
+.sitterprofilecontent .container .myservice .serviceinfo .all-2 .right-2 {
+    width: 70%;
+}
+
+.sitterprofilecontent .container .myservice .serviceinfo .all-2 .left-2 p {
+    color: #CF6262;
+    font-weight: bold;
+}
+
+.sitterprofilecontent .container .myservice button {
+    background-color: #CF6262;
+    border: solid #cf6262;
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    margin: 5% 0%;
+}
+
+/***************************sitter/trainer profile end********************************/
+
+
+/***************************pet profile start******************************/
+.petprofilecontent {
+    background-image: url(../img/YImages/profileimg.png);
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    margin-top: 100px;
+}
+
+.petprofilecontent .container .petinfo {
+    background-color: white;
+    border: solid #707070 1px;
+    border-radius: 60px;
+    width: 700px;
+    height: 785px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.petprofilecontent .container .petinfo h2 {
+    font-weight: bold;
+    color: #CF6262;
+    margin-right: 50%;
+    font-size: 40px;
+}
+
+.petprofilecontent .container .petinfo a img {
+    height: 35px;
+    width: 35px;
+    margin-left: 450px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.petprofilecontent .container .petinfo .petimg img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: solid white 5px;
+    /* margin-top: -40px; */
+    margin-top: 20px;
+    margin-right: 50%;
+}
+
+.petprofilecontent .container .petinfo .aboutpet {
+    border: solid #707070 1px;
+    border-radius: 60px;
+    width: 550px;
+    height: 350px;
+    margin: auto;
+}
+
+.petprofilecontent .container .petinfo .aboutpet .head img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.petprofilecontent .container .petinfo .aboutpet .head h3 {
+    display: inline;
+    color: black;
+    font-weight: bold;
+}
+
+.petprofilecontent .container .petinfo .aboutpet .head {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.petprofilecontent .container .petinfo .aboutpet .allp {
+    display: flex;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.petprofilecontent .container .petinfo .aboutpet .leftp {
+    text-align: left;
+    margin-left: 65px;
+    color: #cf6262;
+    font-weight: bold;
+}
+
+.petprofilecontent .container .petinfo .aboutpet .rightp {
+    width: 400px;
+
+}
+
+.petprofilecontent .container .petinfo .buttonsnew {
+    margin-top: 50px;
+}
+
+.petprofilecontent .container .petinfo .buttonsnew a {
+    border-radius: 30px;
+    background-color: #cf6262;
+    color: white;
+    height: 50px;
+    padding: 3%;
+    width: 200px;
+    margin: 5% auto;
+    display: inline;
+    font-size: 20px;
+}
+
+.petprofilecontent .container .petinfo .buttonsnew button {
+    border-radius: 30px;
+    background-color: #cf6262;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin: 5% auto;
+    display: inline;
+    font-size: 20px;
+}
+
+/***************************pet profile end********************************/
+
+
+
+/**************************add pet start***********************************/
+.addpetcontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin-top: 100px;
+    font-family: Goudy Old Style;
+}
+
+.addpetcontent .container .row .left form {
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 10%;
+    color: #CF6262;
+    font-weight: bold;
+}
+
+.addpetcontent .container .row .left form label {
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.addpetcontent .container .row .left form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    margin-bottom: 6%;
+}
+
+.addpetcontent .container .row .left form .form-check {
+    margin-left: 17%;
+    text-align: center;
+}
+
+.addpetcontent .container .row .left form .form-check input[type="radio"] {
+    accent-color: #CF6262;
+}
+
+.addpetcontent .container .row .left form .form-check input[type="file"] {
+    background-color: #CF6262;
+}
+
+.addpetcontent .container .row .left form input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+}
+
+.addpetcontent .container .row .left form input[type="file"]::file-selector-button {
+    border-radius: 15px;
+    padding: 0 16px;
+    margin-left: 7%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b8b6b6;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+.addpetcontent .container .row .left form button {
+    margin: 5%;
+    border-radius: 25px;
+    width: 35%;
+    height: 15%;
+    background-color: #CF6262;
+    border: solid #CF6262;
+}
+
+.addpetcontent .container .row .left form button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.addpetcontent .container .row .right {
+    margin-left: 10%;
+    padding-top: 0px;
+}
+
+/****************************** add pet end**************************/
+
+
+/**************************update profile start***********************************/
+.updateprofilecontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.updateprofilecontent .container .row .left form {
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 10%;
+    color: #CF6262;
+    font-weight: bold;
+}
+
+.updateprofilecontent .container .row .left form label {
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.updateprofilecontent .container .row .left form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    margin-bottom: 6%;
+}
+
+.updateprofilecontent .container .row .left form .form-check {
+    margin-left: 17%;
+    text-align: center;
+}
+
+.updateprofilecontent .container .row .left form .form-check input[type="radio"] {
+    accent-color: #CF6262;
+}
+
+.updateprofilecontent .container .row .left form .form-check input[type="file"] {
+    background-color: #CF6262;
+}
+
+.updateprofilecontent .container .row .left form input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+}
+
+.updateprofilecontent .container .row .left form input[type="file"]::file-selector-button {
+    border-radius: 15px;
+    padding: 0 16px;
+    margin-left: 7%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b8b6b6;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+.updateprofilecontent .container .row .left form button {
+    margin: 5%;
+    border-radius: 25px;
+    width: 35%;
+    height: 15%;
+    background-color: #CF6262;
+    border: solid #CF6262;
+}
+
+.updateprofilecontent .container .row .left form button a {
+    text-decoration: none;
+    color: white;
+}
+
+.addpetcupdateprofilecontentontent .container .row .right {
+    margin-left: 10%;
+    padding-top: 0px;
+}
+
+/******************************update profile end**************************/
+
+/**************************create/update clinic start***********************************/
+.createclininccontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.createclininccontent .container .row .left form {
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 10%;
+    color: #CF6262;
+    font-weight: bold;
+}
+
+.createclininccontent .container .row .left form .mb-3 label {
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.createclininccontent .container .row .left form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    margin-bottom: 6%;
+}
+
+.createclininccontent .container .row .left form .form-check input[type="file"] {
+    background-color: #CF6262;
+}
+
+.createclininccontent .container .row .left form input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+}
+
+.createclininccontent .container .row .left form input[type="file"]::file-selector-button {
+    border-radius: 15px;
+    padding: 0 16px;
+    margin-left: 7%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b8b6b6;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+.createclininccontent .container .row .left form button {
+    margin: 5%;
+    border-radius: 25px;
+    width: 35%;
+    height: 15%;
+    background-color: #CF6262;
+    border: solid #CF6262;
+}
+
+.createclininccontent .container .row .left form button a {
+    text-decoration: none;
+    color: white;
+}
+
+.createclininccontent .container .row .right img {
+    width: 120%;
+    margin-left: 20%;
+    margin-top: 50%;
+    border-radius: 50%;
+}
+
+/******************************create/update clinic end**************************/
+
+
+/**************************create/update hotel start***********************************/
+.createhotelcontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.createhotelcontent .container .row .left form {
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 10%;
+    color: #CF6262;
+    font-weight: bold;
+}
+
+.createhotelcontent .container .row .left form .mb-3 .form-label {
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.createhotelcontent .container .row .left form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    margin-bottom: 6%;
+}
+
+.createhotelcontent .container .row .left form .form-check input[type="file"] {
+    background-color: #CF6262;
+}
+
+.createhotelcontent .container .row .left form input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+}
+
+.createhotelcontent .container .row .left form input[type="file"]::file-selector-button {
+    border-radius: 15px;
+    padding: 0 16px;
+    margin-left: 7%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b8b6b6;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+.createhotelcontent .container .row .left form button {
+    margin: 5%;
+    border-radius: 25px;
+    width: 35%;
+    height: 15%;
+    background-color: #CF6262;
+    border: solid #CF6262;
+}
+
+.createhotelcontent .container .row .left form button a {
+    text-decoration: none;
+    color: white;
+}
+
+.createhotelcontent .container .row .right img {
+    width: 500px;
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 25%;
+    border-radius: 50%;
+}
+
+/******************************create/update hotel end**************************/
+
+
+/**************************pet report start***********************************/
+.Petreportcontent .container {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    text-align: left;
+    margin-top: 120px;
+}
+
+.Petreportcontent .container .row .left form {
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 10%;
+    color: #CF6262;
+    font-weight: bold;
+    margin-left: 30%;
+}
+
+.petreportcontent .container .row .left form label {
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.petreportcontent .container .row .left form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.petreportcontent .container .row .left form .bigger {
+    height: 200px;
+}
+
+.Petreportcontent .container .row .left form button {
+    margin-left: 20%;
+    border-radius: 25px;
+    width: 50%;
+    height: 15%;
+    background-color: #CF6262;
+    border: solid #CF6262;
+}
+
+.Petreportcontent .container .row .left form button a {
+    text-decoration: none;
+    color: white;
+}
+
+/******************************pet report end**************************/
+
+
+/**************************Dropdown List in NavBar***********************************/
+.dropbtn {
+    background-color: #e27c76;
+    color: white;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    border-radius: 12px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #d45959;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 100;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #d17a7a;
+}
+
+/**************************Index Page Buttons***********************************/
+.buttons {
+    display: flex;
+    width: 70%;
+}
+
+.landbuttons {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #CF6262;
+    background-image: linear-gradient(45deg, #CF6262, #f37373);
+    width: 70%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 40px;
+    opacity: 0.9;
+    margin-top: 23px;
+    margin-right: 90px;
+}
+
+.landbuttons:hover {
+    opacity: 1;
+    background-color: #d17a7a;
+}
+
+
+/*****************************pet services start**********************/
+.Petsevicescontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 99%;
+    height: 100%;
+    font-family: Goudy Old Style;
+}
+
+.Petsevicescontent .serviceimage {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.Petsevicescontent .serviceimage img {
+    width: 100%;
+    height: 500px;
+}
+
+.Petsevicescontent .section2 h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+}
+
+.Petsevicescontent .section2 h1:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #DB8989;
+    left: 110%;
+    top: 50%;
+    position: absolute;
+}
+
+.Petsevicescontent .section2 h1:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #DB8989;
+    right: 110%;
+    top: 50%;
+    position: absolute;
+}
+
+.Petsevicescontent .section3 a {
+    text-decoration: none;
+}
+
+.Petsevicescontent .section3 .box {
+    height: 400px;
+    box-shadow: 5px 10px 18px #888888;
+    overflow: hidden;
+    margin: 80px 0px 20px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Petsevicescontent .section3 .box .petimage {
+    height: 75%;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    transition: 1s all;
+}
+
+.Petsevicescontent .section3 .box .petimage img {
+    height: 300px;
+    width: 100%;
+    transition: 0.5s all;
+}
+
+.Petsevicescontent .section3 .box :hover img {
+    transform: scale(1.5);
+}
+
+.Petsevicescontent .section3 .box .text {
+    height: 25%;
+    background-color: #DB8989;
+    color: white;
+    padding-top: 30px;
+}
+
+.Petsevicescontent .section3 .box .text h3 {
+    display: inline;
+    margin-left: 8px;
+}
+
+/*****************************pet services start**********************/
+
+
+/*************** hotels/sitters/trainers/vets start******************/
+.spcontent {
+    background-image: url(../img/YImages/Search\ For\ Pet\ Friendly\ Hotel\ \ Pagee.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 99%;
+    height: 100%;
+    padding-top: 40px;
+    font-family: Goudy Old Style;
+
+}
+
+.spcontent .spimage {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+    margin-bottom: 20px;
+}
+
+.spcontent .spimage img {
+    width: 100%;
+    height: 500px;
+}
+
+.spcontent h2 {
+    color: white;
+    position: relative;
+    bottom: 150px;
+    right: 150px;
+}
+
+.spcontent h2:before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 5px;
+    background: white;
+    left: 32%;
+    top: -70%;
+    position: absolute;
+}
+
+.spcontent h2:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 5px;
+    background: white;
+    right: 32%;
+    top: 170%;
+    position: absolute;
+}
+
+.spcontent .section2 h1 {
+    color: #CF6262;
+    margin-left: 100px;
+    font-size: 45px;
+}
+
+.spcontent .section2 .search {
+    margin: 70px 0px 50px -250px;
+    width: 40%;
+    position: relative;
+    display: flex;
+}
+
+/* .spcontent .section2 .search .searchTerm {
+    width: 100%;
+    height: 150%;
+    border: 3px solid #DB8989;
+    padding: 5px 10px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 18px #888888;
+    outline: none;
+    color: #DB8989;
+}
+
+.spcontent .section2 .search .searchTerm:focus {
+    color: #DB8989;
+} */
+
+.spcontent .section2 .searchButton {
+    width: 130px;
+    height: 58px;
+    border: 1px solid #DB8989;
+    background: #DB8989;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 35px;
+    position: absolute;
+    left: 35%;
+}
+
+.spcontent .section3 a {
+    text-decoration: none;
+}
+
+.spcontent .section3 .circle {
+    margin: 70px 30px 20px 30px;
+}
+
+.spcontent .section3 .circle .pimage img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 20px 10px 18px #888888;
+}
+
+.spcontent .section3 .circle p {
+    color: #CF6262;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/*************** hotels/sitters/trainers/vets end********************/
+
+
+/**************hotel/sitter/trainer/vet booking start******************/
+.spbooking {
+    background-image: url(../img/YImages/profileimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    margin-top: 100px;
+}
+
+.spbooking .container .spinfo {
+    background-color: white;
+    border-radius: 15%;
+    width: 850px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 15%;
+    border: solid #707070 1px;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+.spbooking .container .spinfo .spimage img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: solid white 5px;
+    margin-top: -13%;
+    margin-bottom: 3%px;
+}
+
+.spbooking .container .spinfo a img {
+    height: 6%;
+    width: 5%;
+    margin-left: 450px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.spbooking .container .spinfo h3 {
+    font-weight: bold;
+    color: #CF6262;
+    margin: 3% 0%;
+}
+
+.spbooking .container .spinfo .aboutsp {
+    border: solid #707070 1px;
+    border-radius: 40px;
+    width: 800px;
+    height: fit-content;
+    margin: auto;
+    padding: 8% 0% 0% 0%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.spbooking .container .spinfo .aboutsp .all {
+    display: flex;
+}
+
+.spbooking .container .spinfo .aboutsp .left {
+    text-align: left;
+    margin-left: 65px;
+    color: #cf6262;
+    font-weight: bold;
+    font-size: 20px;
+    width: 20%;
+}
+
+.spbooking .container .spinfo .aboutsp .right {
+    font-size: 20px;
+    margin-top: -70px;
+    width: 70%;
+}
+
+.spbooking .container .spinfo .aboutsp .right span {
+    color: #feb900;
+}
+
+.spbooking .container .spinfo button {
+    background-color: #F8CACE;
+    border: solid #F8CACE;
+    border-radius: 40px;
+    width: fit-content;
+    height: 10%;
+    margin: 5% 2% 5% 0%;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+/**************hotel/sitter/trainer/vet booking end******************/
+
+
+
+/*****************************rate start**********************************/
+.ratecontent {
+    background-image: url(../img/YImages/profileimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ratecontent .container .ratebox {
+    background-color: white;
+    border-radius: 50px;
+    min-width: 700px;
+    width: fit-content;
+    padding: 3% 5%;
+    height: 500px;
+    margin: auto;
+    margin-top: 15%;
+    border: solid #707070 1px;
+    box-shadow: 5px 10px 18px #888888;
+    z-index: 10;
+    /* position: fixed; */
+    top: 0;
+}
+
+.ratecontent .container .ratebox h1 {
+    font-weight: bold;
+    font-family: Goudy old style;
+    font-size: 50px;
+    color: #cf6262;
+    margin: 3% 0%;
+    margin-bottom: 10%;
+}
+
+.ratecontent .container .ratebox .ratestars span {
+    color: #FFD700;
+    font-size: 90px;
+}
+
+.ratecontent .container .ratebox button {
+    background-color: #CF6262;
+    color: white;
+    border: solid #cf6262;
+    border-radius: 40px;
+    width: 30%;
+    height: 12%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+/****************************rate end******************************/
+
+/***************************pets start********************************/
+.petscontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 5%;
+}
+
+.petscontent h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+
+}
+
+.petscontent h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 35%;
+    top: 50%;
+    position: absolute;
+}
+
+.petscontent h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 35%;
+    top: 50%;
+    position: absolute;
+}
+
+.petscontent .options .want {
+    position: relative;
+}
+
+.petscontent .options .want img {
+    height: 700px;
+    margin: 10% 0% 0% 0%;
+}
+
+.petscontent .options .want h3 {
+    color: white;
+    font-family: Rockwell;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    font-size: 40px;
+}
+
+.petscontent .options .offer {
+    position: relative;
+}
+
+.petscontent .options .offer img {
+    height: 700px;
+    margin: 10% 0% 0% 0%;
+}
+
+.petscontent .options .offer h3 {
+    color: white;
+    font-family: Rockwell;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    font-size: 40px;
+}
+
+.petscontent .options .want button,
+.petscontent .options .offer button {
+    color: white;
+    background-color: #feb6c1;
+    border-radius: 30px;
+    border: solid #FFB6C1;
+    position: absolute;
+    width: 150px;
+    top: 75%;
+    right: 35%;
+}
+
+/***************************pets end********************************/
+
+
+/***************************want/offer pets start********************************/
+.wantpetscontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 3%;
+    position: relative;
+}
+
+.wantpetscontent h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.wantpetscontent h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 35%;
+    top: 50%;
+    position: absolute;
+}
+
+.wantpetscontent h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 35%;
+    top: 50%;
+    position: absolute;
+}
+
+.wantpetscontent .bg {
+    position: relative;
+}
+
+.wantpetscontent .bg img {
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    right: 14%;
+    top: -25px;
+    z-index: 10;
+}
+
+.wantpetscontent .bg2 {
+    position: relative;
+}
+
+.wantpetscontent .bg2 img {
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    right: 8%;
+    top: 60px;
+}
+
+.wantpetscontent .boxes {
+    position: absolute;
+    top: 450%;
+    z-index: 1000;
+}
+
+.wantpetscontent .boxes a {
+    text-decoration: none;
+}
+
+.wantpetscontent .boxes .onebox {
+    background-color: white;
+    margin: 0% 2% 0% 20%;
+    height: 290px;
+    width: 290px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.wantpetscontent .boxes .onebox img {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.wantpetscontent .boxes .onebox h3 {
+    color: #EC918E;
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/***************************want/offer pets end********************************/
+
+
+/***************************place pet for selling start********************************/
+.placepetSellingcontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 3%;
+    position: relative;
+}
+
+.placepetSellingcontent>h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.placepetSellingcontent>h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 20%;
+    top: 50%;
+    position: absolute;
+}
+
+.placepetSellingcontent>h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 20%;
+    top: 50%;
+    position: absolute;
+}
+
+.placepetSellingcontent .boxes {
+    margin: 3% 0% 5% 20%
+}
+
+.placepetSellingcontent .boxes a {
+    text-decoration: none;
+}
+
+.placepetSellingcontent .boxes .onebox {
+    background-color: white;
+    margin: 0% 0% 0% 5%;
+    height: 290px;
+    width: 290px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.placepetSellingcontent .boxes .onebox img {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.placepetSellingcontent .boxes .onebox h3 {
+    color: #EC918E;
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+}
+
+.placepetSellingcontent .boxes .one {
+    background-color: #FDB4BF;
+}
+
+.placepetSellingcontent .boxes .one h3 {
+    color: white;
+
+}
+
+.placepetSellingcontent>h3 {
+    color: #DB8989;
+    position: absolute;
+    font-family: Rockwell;
+    font-size: 35px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.placepetSellingcontent>h3:before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #db8989;
+    left: 0%;
+    top: -70%;
+    position: absolute;
+}
+
+.placepetSellingcontent>h3:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #DB8989;
+    right: 0%;
+    top: 150%;
+    position: absolute;
+}
+
+.placepetSellingcontent form {
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5% 10% 3% 10%;
+    color: #CF6262;
+    font-weight: bold;
+    margin-top: 25%;
+    text-align: left;
+}
+
+.placepetSellingcontent form .both {
+    display: flex;
+}
+
+.placepetSellingcontent form .both .leftside {
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+.placepetSellingcontent form .both .leftside img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.placepetSellingcontent form label {
+    font-size: 20px;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.placepetSellingcontent form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    margin-bottom: 6%;
+    text-align: left;
+    font-family: Rockwell;
+    font-size: 50px;
+}
+
+.placepetSellingcontent form .form-check {
+    margin-left: 17%;
+    text-align: center;
+}
+
+.placepetSellingcontent form .form-check input[type="radio"] {
+    accent-color: #CF6262;
+}
+
+.placepetSellingcontent form .form-check input[type="file"] {
+    background-color: #CF6262;
+}
+
+.placepetSellingcontent form input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+}
+
+.placepetSellingcontent form input[type="file"]::file-selector-button {
+    border-radius: 15px;
+    padding: 0 16px;
+    margin-left: 7%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b8b6b6;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+.placepetSellingcontent form button {
+    margin: 5%;
+    border-radius: 40px;
+    width: 35%;
+    height: 8%;
+    background-color: #CF6262;
+    border: solid #CF6262;
+}
+
+.placepetSellingcontent form button:hover {
+    background-color: #cf6262;
+    border: solid #CF6262;
+
+}
+
+/***************************place pet for selling end********************************/
+
+
+/***************************place pet for adoption start********************************/
+.placepetAdoptioncontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 3%;
+    position: relative;
+}
+
+.placepetAdoptioncontent>h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.placepetAdoptioncontent>h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 15%;
+    top: 50%;
+    position: absolute;
+}
+
+.placepetAdoptioncontent>h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 15%;
+    top: 50%;
+    position: absolute;
+}
+
+.placepetAdoptioncontent .boxes {
+    margin: 3% 0% 5% 20%
+}
+
+.placepetAdoptioncontent .boxes a {
+    text-decoration: none;
+}
+
+.placepetAdoptioncontent .boxes .onebox {
+    background-color: white;
+    margin: 0% 0% 0% 5%;
+    height: 290px;
+    width: 290px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.placepetAdoptioncontent .boxes .onebox img {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.placepetAdoptioncontent .boxes .onebox h3 {
+    color: #EC918E;
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+}
+
+.placepetAdoptioncontent .boxes .two {
+    background-color: #FDB4BF;
+}
+
+.placepetAdoptioncontent .boxes .two h3 {
+    color: white;
+
+}
+
+.placepetAdoptioncontent>h3 {
+    color: #DB8989;
+    position: absolute;
+    font-family: Rockwell;
+    font-size: 35px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.placepetAdoptioncontent>h3:before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #db8989;
+    left: 0%;
+    top: -70%;
+    position: absolute;
+}
+
+.placepetAdoptioncontent>h3:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #DB8989;
+    right: 0%;
+    top: 150%;
+    position: absolute;
+}
+
+.placepetAdoptioncontent form {
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5% 10% 3% 10%;
+    color: #CF6262;
+    font-weight: bold;
+    margin-top: 25%;
+    text-align: left;
+}
+
+.placepetAdoptioncontent form .both {
+    display: flex;
+}
+
+.placepetAdoptioncontent form .both .leftside {
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+.placepetAdoptioncontent form .both .leftside img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.placepetAdoptioncontent form label {
+    font-size: 20px;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.placepetAdoptioncontent form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    margin-bottom: 6%;
+    text-align: left;
+    font-family: Rockwell;
+    font-size: 50px;
+}
+
+.placepetAdoptioncontent form .form-check {
+    margin-left: 17%;
+    text-align: center;
+}
+
+.placepetAdoptioncontent form .form-check input[type="radio"] {
+    accent-color: #CF6262;
+}
+
+.placepetAdoptioncontent form .form-check input[type="file"] {
+    background-color: #CF6262;
+}
+
+.placepetAdoptioncontent form input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+}
+
+.placepetAdoptioncontent form input[type="file"]::file-selector-button {
+    border-radius: 15px;
+    padding: 0 16px;
+    margin-left: 7%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b8b6b6;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+.placepetAdoptioncontent form button {
+    margin: 5%;
+    border-radius: 40px;
+    width: 35%;
+    height: 8%;
+    background-color: #CF6262;
+    border: solid #CF6262;
+}
+
+.placepetAdoptioncontent form button:hover {
+    background-color: #cf6262;
+    border: solid #CF6262;
+
+}
+
+/***************************place pet for adoption end********************************/
+
+
+/***************************place pet for mating start********************************/
+.placepetMatingcontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 3%;
+    position: relative;
+}
+
+.placepetMatingcontent>h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.placepetMatingcontent>h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 20%;
+    top: 50%;
+    position: absolute;
+}
+
+.placepetMatingcontent>h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 20%;
+    top: 50%;
+    position: absolute;
+}
+
+.placepetMatingcontent .boxes {
+    margin: 3% 0% 5% 20%
+}
+
+.placepetMatingcontent .boxes a {
+    text-decoration: none;
+}
+
+.placepetMatingcontent .boxes .onebox {
+    background-color: white;
+    margin: 0% 0% 0% 5%;
+    height: 290px;
+    width: 290px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.placepetMatingcontent .boxes .onebox img {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.placepetMatingcontent .boxes .onebox h3 {
+    color: #EC918E;
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+}
+
+.placepetMatingcontent .boxes .three {
+    background-color: #FDB4BF;
+}
+
+.placepetMatingcontent .boxes .three h3 {
+    color: white;
+
+}
+
+.placepetMatingcontent>h3 {
+    color: #DB8989;
+    position: absolute;
+    font-family: Rockwell;
+    font-size: 35px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.placepetMatingcontent>h3:before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #db8989;
+    left: 0%;
+    top: -70%;
+    position: absolute;
+}
+
+.placepetMatingcontent>h3:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #DB8989;
+    right: 0%;
+    top: 150%;
+    position: absolute;
+}
+
+.placepetMatingcontent form {
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5% 10% 3% 10%;
+    color: #CF6262;
+    font-weight: bold;
+    margin-top: 25%;
+    text-align: left;
+}
+
+.placepetMatingcontent form .both {
+    display: flex;
+}
+
+.placepetMatingcontent form .both .leftside {
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+.placepetMatingcontent form .both .leftside img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.placepetMatingcontent form label {
+    font-size: 20px;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.placepetMatingcontent form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    margin-bottom: 6%;
+    text-align: left;
+    font-family: Rockwell;
+    font-size: 50px;
+}
+
+.placepetMatingcontent form .form-check {
+    margin-left: 17%;
+    text-align: center;
+}
+
+.placepetMatingcontent form .form-check input[type="radio"] {
+    accent-color: #CF6262;
+}
+
+.placepetMatingcontent form .form-check input[type="file"] {
+    background-color: #CF6262;
+}
+
+.placepetMatingcontent form input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+}
+
+.placepetMatingcontent form input[type="file"]::file-selector-button {
+    border-radius: 15px;
+    padding: 0 16px;
+    margin-left: 7%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b8b6b6;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+.placepetMatingcontent form button {
+    margin: 5%;
+    border-radius: 40px;
+    width: 35%;
+    height: 8%;
+    background-color: #CF6262;
+    border: solid #CF6262;
+}
+
+.placepetMatingcontent form button:hover {
+    background-color: #cf6262;
+    border: solid #CF6262;
+
+}
+
+/***************************place pet for adoption end********************************/
+
+
+/******************************buy pet start************************************/
+.buypetcontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 3%;
+    position: relative;
+}
+
+.buypetcontent>h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.buypetcontent>h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 30%;
+    top: 50%;
+    position: absolute;
+}
+
+.buypetcontent>h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 30%;
+    top: 50%;
+    position: absolute;
+}
+
+.buypetcontent .boxes {
+    margin: 3% 0% 5% 20%
+}
+
+.buypetcontent .boxes a {
+    text-decoration: none;
+}
+
+.buypetcontent .boxes .onebox {
+    background-color: white;
+    margin: 0% 0% 0% 5%;
+    height: 290px;
+    width: 290px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.buypetcontent .boxes .onebox img {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.buypetcontent .boxes .onebox h3 {
+    color: #EC918E;
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+}
+
+.buypetcontent .boxes .one {
+    background-color: #FDB4BF;
+}
+
+.buypetcontent .boxes .one h3 {
+    color: white;
+}
+
+.buypetcontent>h3 {
+    color: #DB8989;
+    position: absolute;
+    font-family: Rockwell;
+    font-size: 35px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.buypetcontent>h3:before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #db8989;
+    left: 0%;
+    top: -70%;
+    position: absolute;
+}
+
+.buypetcontent>h3:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #DB8989;
+    right: 0%;
+    top: 150%;
+    position: absolute;
+}
+
+.buypetcontent .circles {
+    margin: 20% 5% 3% 20%;
+}
+
+.buypetcontent .circles .circle {
+    position: relative;
+    left: 30%;
+}
+
+.buypetcontent .circles .circle img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 18px #888888;
+    margin-right: 29px;
+}
+
+.buypetcontent .results {
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.buypetcontent .results .result {
+    width: fit-content;
+    height: 320px;
+    margin: 10% 10% 10% 10%;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 16%;
+    position: relative;
+}
+
+.buypetcontent .results .result .image {
+    height: 80%;
+    position: absolute;
+}
+
+.buypetcontent .results .result .image img {
+    width: 250px;
+    height: 320px;
+    border-radius: 16%;
+}
+
+.buypetcontent .results .result .name {
+    padding-top: 15%;
+    width: 250px;
+    height: 20%;
+    border-radius: 35px;
+    background-color: #F5AEA8;
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    top: 80%;
+}
+
+.buypetcontent .results .result .name p {
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buypetcontent .results a {
+    text-decoration: none;
+}
+
+/******************************buy pet end************************************/
+
+
+/******************************adopt pet start************************************/
+.adoptpetcontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 3%;
+    position: relative;
+}
+
+.adoptpetcontent>h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.adoptpetcontent>h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 27%;
+    top: 50%;
+    position: absolute;
+}
+
+.adoptpetcontent>h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 27%;
+    top: 50%;
+    position: absolute;
+}
+
+.adoptpetcontent .boxes {
+    margin: 3% 0% 5% 20%
+}
+
+.adoptpetcontent .boxes a {
+    text-decoration: none;
+}
+
+.adoptpetcontent .boxes .onebox {
+    background-color: white;
+    margin: 0% 0% 0% 5%;
+    height: 290px;
+    width: 290px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.adoptpetcontent .boxes .onebox img {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.adoptpetcontent .boxes .onebox h3 {
+    color: #EC918E;
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+}
+
+.adoptpetcontent .boxes .two {
+    background-color: #FDB4BF;
+}
+
+.adoptpetcontent .boxes .two h3 {
+    color: white;
+}
+
+.adoptpetcontent>h3 {
+    color: #DB8989;
+    position: absolute;
+    font-family: Rockwell;
+    font-size: 35px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.adoptpetcontent>h3:before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #db8989;
+    left: 0%;
+    top: -70%;
+    position: absolute;
+}
+
+.adoptpetcontent>h3:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #DB8989;
+    right: 0%;
+    top: 150%;
+    position: absolute;
+}
+
+.adoptpetcontent .circles {
+    margin: 20% 5% 3% 5%;
+}
+
+.adoptpetcontent .circles .circle {
+    position: relative;
+    left: 30%;
+}
+
+.adoptpetcontent .circles .circle img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 18px #888888;
+    margin-right: 29px;
+}
+
+.adoptpetcontent .results {
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.adoptpetcontent .results .result {
+    width: fit-content;
+    height: 320px;
+    margin: 10% 10% 10% 10%;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 16%;
+    position: relative;
+}
+
+.adoptpetcontent .results .result .image {
+    height: 80%;
+    position: absolute;
+}
+
+.adoptpetcontent .results .result .image img {
+    width: 250px;
+    height: 320px;
+    border-radius: 16%;
+}
+
+.adoptpetcontent .results .result .name {
+    padding-top: 15%;
+    width: 250px;
+    height: 20%;
+    border-radius: 35px;
+    background-color: #F5AEA8;
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    top: 80%;
+}
+
+.adoptpetcontent .results .result .name p {
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.adoptpetcontent .results a {
+    text-decoration: none;
+}
+
+/******************************adopt pet end************************************/
+
+
+/******************************find mate start************************************/
+.findmatecontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 3%;
+    position: relative;
+}
+
+.findmatecontent>h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+}
+
+.findmatecontent>h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 27%;
+    top: 50%;
+    position: absolute;
+}
+
+.findmatecontent>h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 27%;
+    top: 50%;
+    position: absolute;
+}
+
+.findmatecontent .boxes {
+    margin: 3% 0% 5% 20%
+}
+
+.findmatecontent .boxes a {
+    text-decoration: none;
+}
+
+.findmatecontent .boxes .onebox {
+    background-color: white;
+    margin: 0% 0% 0% 5%;
+    height: 290px;
+    width: 290px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.findmatecontent .boxes .onebox img {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.findmatecontent .boxes .onebox h3 {
+    color: #EC918E;
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+}
+
+.findmatecontent .boxes .three {
+    background-color: #FDB4BF;
+}
+
+.findmatecontent .boxes .three h3 {
+    color: white;
+}
+
+.findmatecontent>h3 {
+    color: #DB8989;
+    position: absolute;
+    font-family: Rockwell;
+    font-size: 35px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.findmatecontent>h3:before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #db8989;
+    left: 0%;
+    top: -70%;
+    position: absolute;
+}
+
+.findmatecontent>h3:after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 5px;
+    background: #DB8989;
+    right: 0%;
+    top: 150%;
+    position: absolute;
+}
+
+.findmatecontent .circles {
+    margin: 20% 5% 3% 5%;
+}
+
+.findmatecontent .circles .circle {
+    position: relative;
+    left: 30%;
+}
+
+.findmatecontent .circles .circle img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 18px #888888;
+    margin-right: 29px;
+}
+
+.findmatecontent .results {
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.findmatecontent .results .result {
+    width: fit-content;
+    height: 320px;
+    margin: 10% 10% 10% 10%;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 16%;
+    position: relative;
+}
+
+.findmatecontent .results .result .image {
+    height: 80%;
+    position: absolute;
+}
+
+.findmatecontent .results .result .image img {
+    width: 250px;
+    height: 320px;
+    border-radius: 16%;
+}
+
+.findmatecontent .results .result .name {
+    padding-top: 15%;
+    width: 250px;
+    height: 20%;
+    border-radius: 35px;
+    background-color: #F5AEA8;
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    top: 80%;
+}
+
+.findmatecontent .results .result .name p {
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.findmatecontent .results a {
+    text-decoration: none;
+}
+
+/******************************find mate end************************************/
+
+
+
+/*****************************store start**********************/
+.storecontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 99%;
+    height: 100%;
+}
+
+.storecontent .storeimage {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 3%;
+    margin-bottom: 80px;
+    font-family: Goudy Old Style;
+}
+
+.storecontent .storeimage img {
+    width: 100%;
+    height: 250px;
+}
+
+.storecontent .categories a {
+    text-decoration: none;
+}
+
+.storecontent .categories {
+    margin: 0% 8% 3% 18%;
+}
+
+
+.storecontent .categories .category img {
+    width: 160px;
+    height: 160px;
+    border: solid #9d9d9d 1px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px #888888;
+    overflow: hidden;
+    margin: 0px 25px 20px 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* .storecontent .categories .category:focus {
+    background-color: #EBD2CF;
+} */
+
+.storecontent .dropbtn {
+    background-color: #CF6262;
+    color: #ffffff;
+    padding: 16px;
+    width: 180px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    border: none;
+}
+
+.storecontent .dropdown {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.storecontent .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Goudy Old Style;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.storecontent .dropdown-content a {
+    color: #CF6262;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.storecontent .dropdown-content a:hover {
+    background-color: #EBD2CF;
+}
+
+.storecontent .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.storecontent .products {
+    margin-left: 2%;
+    font-family: Goudy Old Style;
+}
+
+.storecontent .products .product {
+    margin: 10% 5% 10% 5%;
+    padding: 5%;
+    background-color: white;
+    border: solid #b8b6b6 1px;
+    box-shadow: 5px 10px 18px #888888;
+    height: 600px;
+}
+
+.storecontent .products .product>p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.storecontent .products .product>img {
+    width: 240px;
+    height: 240px;
+    border: solid rgb(202, 9, 9) 2px;
+
+}
+
+.storecontent .products .product a {
+    text-decoration: none;
+}
+
+.storecontent .products .product .cart,
+.wishlist {
+    margin: 10px;
+    text-align: left;
+}
+
+.storecontent .products .product .cart span,
+.wishlist span {
+    color: #707070;
+    background-color: #f1f1f1;
+    font-size: 27px;
+    border: solid #b8b6b6 1px;
+    border-radius: 50%;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+.storecontent .products .product .cart p,
+.wishlist p {
+    display: inline;
+    color: #707070;
+    font-size: 25px;
+}
+
+.storecontent .footer {
+    display: flex;
+    background-color: white;
+    border: #b8b6b6;
+    border: solid #b8b6b6 1px;
+    margin: 5% 0% 5% 8%;
+    height: 150px;
+    width: 1700px;
+    padding: 1% 0% 3% 5%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.storecontent .footer a {
+    text-decoration: none;
+}
+
+.storecontent .footer .cart {
+    margin-right: 700px;
+}
+
+.storecontent .footer span {
+    font-size: 60px;
+    color: #707070;
+}
+
+.storecontent .footer h3 {
+    font-size: 40px;
+    display: inline;
+    font-family: Goudy Old Style;
+    color: #D67A70;
+    font-weight: bolder;
+}
+
+/*****************************store start**********************/
+
+
+/**************************cart start*************************/
+
+.cartcontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 99%;
+    height: 100%;
+    margin-top: -1%;
+}
+
+.cartcontent .storeimage {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 3%;
+    margin-bottom: 80px;
+    font-family: Goudy Old Style;
+}
+
+.cartcontent .storeimage img {
+    width: 100%;
+    height: 250px;
+}
+
+.cartcontent .cartbox {
+    background-color: white;
+    border: solid #b8b6b6 1px;
+    width: 1000px;
+    min-height: 500px;
+    height: fit-content;
+    margin: 0% auto 5% auto;
+    padding: 3%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.cartcontent .cartbox h3 {
+    margin: 20% 10%;
+}
+
+.cartcontent .cartbox hr {
+    height: 2px;
+    color: black;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.cartcontent .cartbox h1 {
+    color: #D67A70;
+    font-family: Goudy Old Style;
+    font-weight: bolder;
+    display: inline;
+}
+
+.cartcontent .cartbox .cartitem {
+    margin: 5% 25% 0% 25%;
+    display: flex;
+}
+
+.cartcontent .cartbox .cartitem .row {
+    flex-wrap: nowrap;
+}
+
+.cartcontent .cartbox .cartitem .productimg {
+    margin-right: 5%;
+    border: #b8b6b6 solid 1px;
+    width: 240px;
+    height: 240px;
+    padding-top: 5%;
+}
+
+.cartcontent .cartbox .cartitem .productimg img {
+    width: 180px;
+    height: 180px;
+}
+
+.cartcontent .cartbox .cartitem .productdetails {
+    text-align: left;
+    padding-top: 3%;
+    font-size: 20px;
+    color: #707070;
+    font-family: Goudy Old Style;
+    font-weight: bolder;
+    margin-right: 5%;
+    width: 240px;
+}
+
+.cartcontent .cartbox .cartitem .productdetails input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.cartcontent .cartbox .cartitem .productdetails input[type=number]::-webkit-inner-spin-button,
+.cartcontent .cartbox .cartitem .productdetails input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.cartcontent .cartbox .cartitem .productdetails .number-input {
+    border: 2px solid #ddd;
+    display: inline-flex;
+}
+
+.cartcontent .cartbox .cartitem .productdetails .number-input,
+.cartcontent .cartbox .cartitem .productdetails .number-input * {
+    box-sizing: border-box;
+}
+
+.cartcontent .cartbox .cartitem .productdetails .number-input button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.cartcontent .cartbox .cartitem .productdetails .number-input button:before,
+.cartcontent .cartbox .cartitem .productdetails .number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 1rem;
+    height: 2px;
+    background-color: #212121;
+    transform: translate(-50%, -50%);
+}
+
+.cartcontent .cartbox .cartitem .productdetails .number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.cartcontent .cartbox .cartitem .productdetails .number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: .5rem;
+    border: solid #ddd;
+    border-width: 0 2px;
+    font-size: 2rem;
+    height: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cartcontent .dropbtn {
+    background-color: white;
+    color: #CF6262;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    border: none;
+}
+
+.cartcontent .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Goudy Old Style;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.cartcontent .dropdown-content a {
+    color: #CF6262;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.cartcontent .dropdown-content a:hover {
+    background-color: #EBD2CF;
+}
+
+.cartcontent .dropdown-content .menu-form .remove-from-cart-btn {
+    border: none;
+    color: #cf6262;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.cartcontent .dropdown-content .menu-form .remove-from-cart-btn:hover {
+    background-color: #EBD2CF;
+}
+
+.cartcontent .dropdown-content .menu-form .remove-from-wishlist-btn {
+    border: none;
+    color: #cf6262;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.cartcontent .dropdown-content .menu-form .remove-from-wishlist-btn:hover {
+    background-color: #EBD2CF;
+}
+
+
+.cartcontent .dropdown-content .menu-form .save-for-later-btn {
+    border: none;
+    color: #cf6262;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.cartcontent .dropdown-content .menu-form .save-for-later-btn:hover {
+    background-color: #EBD2CF;
+}
+
+.cartcontent .dropdown-content .menu-form .add-to-cart-btn {
+    border: none;
+    color: #cf6262;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.cartcontent .dropdown-content .menu-form .add-to-cart-btn:hover {
+    background-color: #EBD2CF;
+}
+
+.cartcontent .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.cartbox .end h3 {
+    color: #707070;
+    font-weight: bold;
+    margin: auto;
+}
+
+.cartbox .end button {
+    background-color: #cf6262;
+    color: white;
+    border: #CF6262;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1% 5%;
+    border-radius: 50px;
+    margin: 5% -20% 0% 25%;
+}
+
+.cartbox .end a {
+    text-decoration: none;
+    color: white;
+}
+
+/***************************cart end**************************/
+
+/******************************reciet start*******************/
+.recietcontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 99%;
+    height: 100%;
+    margin-top: -1%;
+}
+
+.recietcontent .storeimage {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 3%;
+    margin-bottom: 80px;
+    font-family: Goudy Old Style;
+}
+
+.recietcontent .storeimage img {
+    width: 100%;
+    height: 250px;
+}
+
+.recietcontent h1 {
+    color: #D67A70;
+    font-family: Goudy Old Style;
+    font-weight: bolder;
+}
+
+.recietcontent .locationbox {
+    background-color: white;
+    border: solid #b8b6b6 1px;
+    width: 1000px;
+    min-height: 200px;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 3%;
+    box-shadow: 5px 10px 18px #888888;
+    position: relative;
+}
+
+.recietcontent .locationbox form {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+
+.recietcontent .locationbox form input {
+    width: 200%;
+    height: 50px;
+}
+
+.recietcontent .recietbox {
+    background-color: white;
+    border: solid #b8b6b6 1px;
+    width: 1000px;
+    min-height: 300px;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 3%;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: left;
+}
+
+.recietcontent .recietbox .row {
+    flex-wrap: nowrap;
+}
+
+.recietcontent .recietbox p,
+hr {
+    font-size: 20px;
+}
+
+.recietcontent .paymentbox {
+    background-color: white;
+    border: solid #b8b6b6 1px;
+    width: 1000px;
+    min-height: 300px;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 3%;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: left;
+}
+
+.recietcontent .paymentbox .form-check {
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.recietcontent .paymentbox label {
+    font-size: 20px;
+}
+
+.recietcontent .paymentbox .form-check input[type="radio"] {
+    accent-color: #CF6262;
+    font-size: 30px;
+}
+
+.recietcontent button {
+    background-color: #cf6262;
+    color: white;
+    border: #CF6262;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1% 5%;
+    border-radius: 50px;
+    margin: 0% -20% 3% 25%;
+}
+
+.recietcontent a {
+    text-decoration: none;
+    color: white;
+}
+
+/******************************reciet end*******************/
+
+/******************************confirmation start*******************/
+.confirmationcontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 99%;
+    height: 100%;
+}
+
+.confirmationcontent .storeimage {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 3%;
+    margin-bottom: 80px;
+    font-family: Goudy Old Style;
+}
+
+.confirmationcontent .storeimage img {
+    width: 100%;
+    height: 250px;
+}
+
+.confirmationcontent h1 {
+    color: #80E186;
+    font-family: Goudy Old Style;
+    font-weight: bolder;
+    margin-bottom: 10%;
+
+}
+
+.confirmationcontent h3 {
+    font-family: Goudy Old Style;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.confirmationcontent .confirmationbox {
+    background-color: white;
+    border: solid #b8b6b6 1px;
+    width: 1000px;
+    min-height: 100px;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 3%;
+    padding: 3%;
+    box-shadow: 5px 10px 18px #888888;
+    position: relative;
+}
+
+.confirmationcontent .confirmationbox .checkmark img {
+    margin-left: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/******************************confirmation end*******************/
+
+
+/************************* products start*************************/
+.productscontent {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 5%;
+}
+
+.productscontent h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
+    position: relative;
+}
+
+.productscontent h1:after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 5px;
+    background: #DB8989;
+    left: 0%;
+    top: 100%;
+    position: absolute;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.productscontent .addproduct button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: #cf6262 solid;
+    background-color: #CF6262;
+    color: white;
+    margin: 5% 10% 0% 10%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.productscontent a {
+    text-decoration: none;
+}
+
+.productscontent .search {
+    margin: -8% 0px 5% 25%;
+    width: 40%;
+    position: relative;
+    display: flex;
+}
+
+.productscontent .search .searchTerm {
+    width: 100%;
+    height: 50px;
+    border: 3px solid #DB8989;
+    padding: 5px 10px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 18px #888888;
+    outline: none;
+    color: #DB8989;
+}
+
+.productscontent .search .searchTerm:focus {
+    color: #CF6262;
+}
+
+.productscontent .search .searchButton {
+    width: 130px;
+    height: 50px;
+    border: 1px solid #CF6262;
+    background: #CF6262;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 35px;
+    position: absolute;
+    left: 79%;
+}
+
+.productscontent .productslist {
+    background-color: white;
+    border: #9d9d9d solid 1px;
+    border-radius: 30px;
+    margin: 5% 10%;
+    height: fit-content;
+    text-align: left;
+    padding: 0% 5%;
+    font-family: Goudy Old Style;
+}
+
+.productscontent .productslist .product {
+    padding-bottom: 5%;
+}
+
+.productscontent .productslist .product .oneproduct {
+    margin-top: 5%;
+    display: flex;
+}
+
+.productscontent .productslist .product .productimg {
+    margin-right: 2%;
+}
+
+.productscontent .productslist .product .productimg img {
+    width: 130px;
+    height: 130px;
+
+}
+
+.productscontent .productslist .product .productabout {
+    font-size: 22px;
+    position: relative;
+}
+
+.productscontent .productslist .product .buttons {
+    display: flex;
+    position: absolute;
+    right: -30%;
+}
+
+.productscontent .productslist .product .buttons button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: #cf6262 solid;
+    background-color: #CF6262;
+    color: white;
+    margin-right: 20px;
+}
+
+/*************************products end*************************/
+
+/********************add product start***********************/
+.addproductcontent {
+    /* background-image: url('../img/YImages/WhatsApp\ Image\ 2023-02-20\ at\ 7.55.41\ PM.png');   */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 5%;
+}
+
+.addproductcontent .outerframe {
+    background-color: #F8CACE;
+    margin: 10% 20%;
+    padding: 3% 5% 5% 5%;
+    border-radius: 50px;
+}
+
+.addproductcontent .outerframe h1 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 50px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.addproductcontent .outerframe form {
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10%;
+    color: #CF6262;
+    font-weight: bold;
+}
+
+.addproductcontent .outerframe form label {
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.addproductcontent .outerframe form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    margin-bottom: 6%;
+}
+
+.addproductcontent .outerframe form .form-check input[type="file"] {
+    background-color: #CF6262;
+}
+
+.addproductcontent .outerframe form input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+}
+
+.addproductcontent .outerframe form input[type="file"]::file-selector-button {
+    border-radius: 15px;
+    padding: 0 16px;
+    margin-left: 7%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b8b6b6;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+.addproductcontent .outerframe form button {
+    margin: 5%;
+    border-radius: 25px;
+    width: 35%;
+    height: 15%;
+    background-color: #CF6262;
+    border: solid #CF6262;
+}
+
+.addproductcontent .outerframe form button a {
+    text-decoration: none;
+    color: white;
+}
+
+/********************add product end***********************/
+
+/*************************pet reports end*************************/
+.petreportscontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 5%;
+}
+
+.petreportscontent h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
+    position: relative;
+}
+
+.petreportscontent h1:after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 5px;
+    background: #DB8989;
+    left: 0%;
+    top: 100%;
+    position: absolute;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.petreportscontent .reportlist {
+    background-color: white;
+    border: #9d9d9d solid 1px;
+    border-radius: 30px;
+    margin: 5% 10%;
+    height: fit-content;
+    text-align: left;
+    padding: 3% 5%;
+    font-family: Goudy Old Style;
+}
+
+.petreportscontent .reportlist .date {
+    color: #9d9d9d;
+    font-size: 20px;
+}
+
+.petreportscontent .reportlist .description,
+.location {
+    font-size: 35px;
+}
+
+/*************************pet reports end*************************/
+
+/*************************user reports start*************************/
+.userreportscontent {
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 5%;
+}
+
+.userreportscontent h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
+    position: relative;
+}
+
+.userreportscontent h1:after {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 5px;
+    background: #DB8989;
+    left: 0%;
+    top: 100%;
+    position: absolute;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.userreportscontent .comm:after {
+    width: 780px;
+}
+
+.userreportscontent .userreportlist {
+    background-color: white;
+    border: #9d9d9d solid 1px;
+    border-radius: 30px;
+    margin: 5% 10%;
+    min-height: 400px;
+    height: fit-content;
+    text-align: left;
+    padding: 0% 5%;
+    font-family: Goudy Old Style;
+}
+
+.userreportscontent .userreportlist hr {
+    margin: 5%;
+}
+
+.userreportscontent .userreportlist .postreport {
+    margin-top: 5%;
+    position: relative;
+}
+
+.userreportscontent .userreportlist .postreport .aboutpost {
+    display: flex;
+}
+
+.userreportscontent .userreportlist .postreport .aboutpost .postimg {
+    width: 100px;
+    height: 100px;
+    border: #9d9d9d solid 1px;
+    margin-right: 3%;
+}
+
+.userreportscontent .userreportlist .postreport .aboutpost .postimg img {
+    width: 80px;
+    height: 80px;
+    margin: 10% 10%;
+}
+
+.userreportscontent .userreportlist .postreport .aboutpost .ND .name {
+    color: #CF6262;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.userreportscontent .userreportlist .postreport .aboutpost .ND .date {
+    color: #9d9d9d;
+    font-size: 20px;
+}
+
+.userreportscontent .userreportlist .postreport .postcontent {
+    font-size: 25px;
+    color: #0F1010;
+    margin: 5% 0%;
+}
+
+.userreportscontent .userreportlist .postreport .last {
+    display: flex;
+}
+
+.userreportscontent .userreportlist .postreport .from {
+    color: #9d9d9d;
+    font-size: 20px;
+}
+
+.userreportscontent .userreportlist .postreport .twobuttons {
+    display: flex;
+    position: absolute;
+    right: 5%;
+}
+
+.userreportscontent .userreportlist .postreport .twobuttons a {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: #cf6262 solid;
+    background-color: #CF6262;
+    color: white;
+    margin-right: 5%;
+    font-size: 20px;
+
+}
+
+/*************************user reports end*************************/
+
+/********************view appointments start***********************/
+.viewappointmentscontent {
+    background-image: url(../YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.viewappointmentscontent .appointmentslist {
+    background-color: white;
+    border: #9d9d9d solid 1px;
+    border-radius: 30px;
+    margin: 5% 25%;
+    height: fit-content;
+    text-align: left;
+    padding: 3% 5%;
+    font-family: Goudy Old Style;
+}
+
+.viewappointmentscontent .appointmentslist h1 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 50px;
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+.viewappointmentscontent .appointmentslist .appointment {
+    border: #9d9d9d solid 1px;
+    border-radius: 30px;
+    padding: 3% 5%;
+    margin: 5% 0%;
+}
+
+.viewappointmentscontent .appointmentslist .appointment p {
+    font-size: 25px;
+    line-height: 100%;
+}
+
+.viewappointmentscontent .appointmentslist .appointment .name {
+    font-weight: bold;
+}
+
+/********************view appointments end***********************/
+
+
+
+/**************sitter/trainer make appointment start******************/
+.makeS-Tappointment {
+    background-image: url(../YImages/perprofileimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.makeS-Tappointment .sitterappointmentform {
+    background-color: white;
+    border-radius: 50px;
+    padding: 3% 5% 0% 5%;
+    width: 800px;
+    height: fit-content;
+    margin: 5% auto;
+    border: solid #707070 1px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.makeS-Tappointment .sitterappointmentform form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.makeS-Tappointment .sitterappointmentform form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 50px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.makeS-Tappointment .sitterappointmentform form h4 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 30px;
+    margin: 8%;
+    text-align: center;
+}
+
+.makeS-Tappointment .sitterappointmentform form .days {
+    border: #707070 solid 1px;
+    border-radius: 30px;
+    width: 500px;
+    height: fit-content;
+    font-family: Goudy Old Style;
+    font-size: 22px;
+    padding: 2% 5%;
+    margin: 8% 0% 15% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
+}
+
+.makeS-Tappointment .sitterappointmentform form .days .pone {
+    color: #CF6262;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.makeS-Tappointment .sitterappointmentform form label {
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Goudy Old Style;
+    color: #CF6262;
+}
+
+.makeS-Tappointment .sitterappointmentform button {
+    background-color: #cf6262;
+    border: solid #cf6262;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    margin: 5% auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.makeS-Tappointment .sitterappointmentform form .ok {
+    margin-top: 3%;
+    margin-left: 40%;
+    width: 100px;
+    border-radius: 40px;
+}
+
+.makeS-Tappointment .sitterappointmentform .price {
+    border: #707070 solid 1px;
+    border-radius: 30px;
+    width: 500px;
+    height: fit-content;
+    font-family: Goudy Old Style;
+    font-size: 22px;
+    padding: 2% 5%;
+    margin: 5% 0% 5% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
+}
+
+.makeS-Tappointment .sitterappointmentform .price .pone {
+    color: #CF6262;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.makeS-Tappointment .sitterappointmentform .confirm {
+    margin-top: 3%;
+    margin-left: 38%;
+    width: 150px;
+    border-radius: 40px;
+}
+
+.makeS-Tappointment .sitterappointmentform form .form-group {
+    margin: 5% 0%;
+}
+
+.makeS-Tappointment .sitterappointmentform form .form-group input[type="text"] {
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.makeS-Tappointment .sitterappointmentform form .mb-3 input[type="text"] {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.makeS-Tappointment .sitterappointmentform form .mb-3 select {
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.makeS-Tappointment .sitterappointmentform form .input-group-text i {
+    cursor: pointer;
+}
+
+.datepicker {
+    border: #9d9d9d solid 1px;
+}
+
+.datepicker,
+.table-condensed {
+    min-width: 250px;
+    width: fit-content;
+    font-size: large;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    min-width: 250px;
+    width: fit-content;
+    font-size: medium;
+    border: #9d9d9d solid 1px;
+}
+
+.makeS-Tappointment .sitterappointmentform form .input-group-text {
+    width: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.makeS-Tappointment .sitterappointmentform form .input-group-text i {
+    margin: auto;
+    font-size: 20px;
+}
+
+/**************sitter/trainer booking start******************/
+
+
+/**************vet make appointment start******************/
+.makevetappointment {
+    background-image: url(../YImages/perprofileimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.makevetappointment .vetappointmentform {
+    background-color: white;
+    border-radius: 50px;
+    padding: 3% 5%;
+    width: 800px;
+    height: fit-content;
+    margin: 5% auto;
+    border: solid #707070 1px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.makevetappointment .vetappointmentform form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.makevetappointment .vetappointmentform form h1 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 50px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.makevetappointment .vetappointmentform form h4 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 30px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.makevetappointment .vetappointmentform form .days {
+    border: #707070 solid 1px;
+    border-radius: 30px;
+    width: 500px;
+    height: fit-content;
+    font-family: Goudy Old Style;
+    font-size: 22px;
+    padding: 2% 5%;
+    margin: 8% 0% 15% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
+}
+
+.makevetappointment .vetappointmentform form .days .pone {
+    color: #CF6262;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.makevetappointment .vetappointmentform form label {
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Goudy Old Style;
+    color: #CF6262;
+}
+
+.makevetappointment .vetappointmentform button {
+    background-color: #cf6262;
+    border: solid #cf6262;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    margin: 5% auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.makevetappointment .vetappointmentform form .ok {
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 100px;
+    border-radius: 40px;
+}
+
+.makevetappointment .vetappointmentform .price {
+    border: #707070 solid 1px;
+    border-radius: 30px;
+    width: 500px;
+    height: fit-content;
+    font-family: Goudy Old Style;
+    font-size: 22px;
+    padding: 2% 5%;
+    margin: 8% 0% 5% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
+}
+
+.makevetappointment .vetappointmentform .price .pone {
+    color: #CF6262;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.makevetappointment .vetappointmentform .confirm {
+    margin-top: 10%;
+    margin-left: 38%;
+    width: 150px;
+    border-radius: 40px;
+}
+
+.makevetappointment .vetappointmentform form .mb-3 input[type="text"] {
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.makevetappointment .vetappointmentform form .input-group-text i {
+    cursor: pointer;
+}
+
+.datepicker {
+    border: #9d9d9d solid 1px;
+}
+
+.datepicker,
+.table-condensed {
+    min-width: 250px;
+    width: fit-content;
+    font-size: large;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    min-width: 250px;
+    width: fit-content;
+    font-size: medium;
+    border: #9d9d9d solid 1px;
+}
+
+.makevetappointment .vetappointmentform form .input-group-text {
+    width: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.makevetappointment .vetappointmentform form .input-group-text i {
+    margin: auto;
+    font-size: 20px;
+}
+
+/**************sitter/trainer booking end******************/
+
+/***********************chats start*********************/
+.chatscontent {
+    background-image: url(../YImages/new.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+.chatscontent .chatstitle h1 {
+    color: #707070;
+    font-weight: bold;
+    font-family: Segoe UI;
+    font-size: 50px;
+    margin: 5% 0% 0% 15%;
+    text-align: center;
+}
+
+.chatscontent .chatssearch {
+    margin: 2% auto;
+    width: 850px;
+    position: relative;
+    display: flex;
+}
+
+.chatscontent .chatssearch .searchTerm {
+    width: 850px;
+    height: 70px;
+    border: 1px solid #707070;
+    background-color: #E9E9E9;
+    padding: 5px 10px;
+    border-radius: 50px;
+    box-shadow: 5px 10px 18px #888888;
+    outline: none;
+    color: #707070;
+}
+
+.chatscontent .chatssearch .searchTerm:focus {
+    color: #CF6262;
+}
+
+.chatscontent .chatssearch .searchButton {
+    width: 130px;
+    height: 70px;
+    border: 1px solid #707070;
+    background: #707070;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 35px;
+    position: absolute;
+    left: 85%;
+}
+
+.chatscontent .chatslist {
+    background-color: white;
+    border: #707070 solid 1px;
+    border-radius: 50px;
+    width: 900px;
+    height: fit-content;
+    margin: auto;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 3% 5%;
+}
+
+.chatscontent .chatslist a {
+    text-decoration: none;
+}
+
+.chatscontent .chatslist .chat {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.chatscontent .chatslist .chat .chatimg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.chatscontent .chatslist .chat .chatimg img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.chatscontent .chatslist .chat .chatdetails {
+    color: #707070;
+    font-family: Segoe UI;
+    margin-top: 6%;
+}
+
+.chatscontent .chatslist .chat .chatdetails .chatname {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.chatscontent .chatslist .chat .chatdetails .messege {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    width: 300px;
+}
+
+.chatscontent .chatslist .chat .chatdetails .messege .lastmessege {
+    margin-right: 100px;
+}
+
+/***********************chats end*********************/
+
+/*************************one chat start******************/
+.onechatcontent {
+    background-image: url(../YImages/new.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+.onechatcontent .chatbody {
+    margin: 5% auto;
+    width: 1000px;
+    height: fit-content;
+    background-color: white;
+}
+
+.onechatcontent .chatbody .namepart {
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    background-color: #6AAEEC;
+    padding: 2% 5%;
+}
+
+.onechatcontent .chatbody .namepart img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.onechatcontent .chatbody .namepart p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15%;
+}
+
+.onechatcontent .chatbody .chatmesseges .messege {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 0px 30px 30px 30px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 50%;
+    min-height: 80px;
+    height: fit-content;
+}
+
+.onechatcontent .chatbody .chatmesseges .my {
+    border-color: #ccc;
+    background-color: #ddd;
+    border-radius: 30px 0px 30px 30px;
+    margin-left: 50%;
+}
+
+.onechatcontent .chatbody .chatmesseges .messege::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.onechatcontent .chatbody .chatmesseges .messege img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.onechatcontent .chatbody .chatmesseges .messege img.right {
+    margin-left: 90%;
+}
+
+.onechatcontent .chatbody .chatmesseges .time-right {
+    float: right;
+    color: #aaa;
+}
+
+.onechatcontent .chatbody .chatmesseges .time-left {
+    float: right;
+    color: #999;
+}
+
+.onechatcontent .chatbody .chatmesseges .typepart {
+    margin: 5% 5%;
+    width: 1000px;
+    height: 100px;
+}
+
+.onechatcontent .chatbody .chatmesseges .typepart input[type="text"] {
+    width: 700px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #f1f1f1;
+}
+
+.onechatcontent .chatbody .chatmesseges .typepart span i {
+    font-size: 50px;
+    color: #6AAEEC;
+    margin: 15px 20px 0% 20px;
+}
+
+/*************************one chat end********************/
+
+/******************************alarm start*******************/
+.alarmcontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 3%;
+}
+
+.alarmcontent h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.alarmcontent h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 33%;
+    top: 15%;
+    position: absolute;
+}
+
+.alarmcontent h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 33%;
+    top: 15%;
+    position: absolute;
+}
+
+.alarmcontent .alarmtypes {
+    margin: 10% 0% 5% 0%;
+}
+
+.alarmcontent .alarmtypes a {
+    text-decoration: none;
+}
+
+.alarmcontent .alarmtypes .alarmtype h3 {
+    color: #DB8989;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    margin-top: 8%;
+}
+
+.alarmcontent .alarmtypes .alarmtype img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+/******************************alarm end*******************/
+
+
+/******************************normal/vaccination/playing alarm end*******************/
+
+.narmalalarmcontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    margin-top: 3%;
+}
+
+.narmalalarmcontent h1 {
+    color: #DB8989;
+    font-family: Goudy Old Style;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+/***/
+.narmalalarmcontent .normal h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 33%;
+    top: 15%;
+    position: absolute;
+}
+
+.narmalalarmcontent .normal h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 33%;
+    top: 15%;
+    position: absolute;
+}
+
+/***/
+.narmalalarmcontent .vaccination h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 22%;
+    top: 15%;
+    position: absolute;
+}
+
+.narmalalarmcontent .vaccination h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 22%;
+    top: 15%;
+    position: absolute;
+}
+
+/***/
+.narmalalarmcontent .playing h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    left: 25%;
+    top: 15%;
+    position: absolute;
+}
+
+.narmalalarmcontent .playing h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: #DB8989;
+    right: 25%;
+    top: 15%;
+    position: absolute;
+}
+
+/***/
+.narmalalarmcontent .alarmside1 {
+    margin: 30% 40% 0% 20%;
+}
+
+.narmalalarmcontent .alarmside1 img {
+    width: 350px;
+    height: 350px;
+}
+
+.narmalalarmcontent .alarmside2 {
+    margin: 5% 15% 3% 10%;
+}
+
+.narmalalarmcontent .alarmside2 form {
+    background-color: white;
+    border: #b8b6b6 solid 1px;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+.narmalalarmcontent .alarmside2 form .element1 h3 {
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #DB8989;
+    font-family: Goudy Old Style;
+}
+
+.narmalalarmcontent .alarmside2 form .element1 .trash {
+    margin: 0% 5% 0% 60%;
+    font-size: 30px;
+    color: #DB8989;
+    cursor: pointer;
+}
+
+.narmalalarmcontent .alarmside2 form .element2 {
+    margin: 5% 0%;
+}
+
+.narmalalarmcontent .alarmside2 form .element2 .cs-form {
+    margin: auto;
+}
+
+.narmalalarmcontent .alarmside2 form .element2 .cs-form input[type="time"] {
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    color: #cf6262;
+}
+
+.narmalalarmcontent .alarmside2 form .element3 {
+    margin-left: 10%;
+    margin: 5% 0% 5% 15%;
+}
+
+.narmalalarmcontent .alarmside2 form .element3 .pen {
+    font-size: 30px;
+    color: #DB8989;
+    margin-right: 5%;
+}
+
+.narmalalarmcontent .alarmside2 form .element3 .mb-3 input[type="text"] {
+    width: 400px;
+    height: 50px;
+    color: #cf6262;
+}
+
+.narmalalarmcontent .alarmside2 form .element4 {
+    margin-left: 10%;
+    margin: 5% 0% 5% 15%;
+}
+
+.narmalalarmcontent .alarmside2 form .element4 .repeat {
+    font-size: 30px;
+    color: #DB8989;
+    margin-right: 5%;
+}
+
+.narmalalarmcontent .alarmside2 form .element4 .days {
+    display: flex;
+}
+
+.narmalalarmcontent .alarmside2 form .element4 .days .day {
+    margin: 0% 5%;
+    color: #DB8989;
+    font-size: 20px;
+    border: #9d9d9d solid 1px;
+    border-radius: 50%;
+    padding: 2% 5%;
+    cursor: pointer;
+}
+
+.narmalalarmcontent .alarmside2 form .element5 {
+    margin-left: 10%;
+    margin: 5% 0% 5% 15%;
+}
+
+.narmalalarmcontent .alarmside2 form .element5 .snooze {
+    font-size: 40px;
+    color: #DB8989;
+    margin-right: 5%;
+}
+
+.narmalalarmcontent .alarmside2 form .element5 .form-control {
+    width: 400px;
+    height: 50px;
+    color: #cf6262;
+}
+
+.narmalalarmcontent .alarmside2 form button {
+    background-color: #DB8989;
+    border: #DB8989;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-right: 5%;
+}
+
+/*********************normal/vaccination/playing alarm end*************/
+
+
+/**************************detect pet start********************/
+.detectpetcontent {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.detectpetcontent .detectabout {
+    background-color: white;
+    border: #9d9d9d solid 1px;
+    border-radius: 30px;
+    margin: 5% 20% 2% 20%;
+    height: fit-content;
+    text-align: left;
+    padding: 3% 5%;
+    font-family: Goudy Old Style;
+}
+
+.detectpetcontent .detectabout h1 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 50px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.detectpetcontent .detectabout p {
+    font-family: Goudy Old Style;
+    font-size: 25px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.detectpetcontent .detect h1 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 50px;
+    margin-bottom: 3%;
+    margin-left: 25%;
+    text-align: left;
+}
+
+.detectpetcontent .detect .drop-title {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+}
+
+.detectpetcontent .detect input[type=file] {
+    width: 500px;
+    height: 65px;
+    max-width: 100%;
+    color: #444;
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid #cf6262;
+    margin-left: 100%;
+
+}
+
+.detectpetcontent .detect input[type=file]::file-selector-button {
+    margin-right: 40px;
+    height: 65px;
+    width: 150px;
+    border: none;
+    background: #CF6262;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.detectpetcontent button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: #cf6262 solid;
+    background-color: #CF6262;
+    color: white;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.detectpetcontent .detectresult {
+    background-color: white;
+    border: #9d9d9d solid 1px;
+    border-radius: 30px;
+    margin: 5% 20% 2% 20%;
+    height: fit-content;
+    text-align: left;
+    padding: 3% 5%;
+    font-family: Goudy Old Style;
+}
+
+/**************************detect pet end********************/
+
+
+
+/************************community start**********************/
+.ComunityContent {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Goudy Old Style;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.ComunityContent .createpost {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 700px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.ComunityContent .createpost .post-header {
+    display: flex;
+    align-items: center;
+}
+
+.ComunityContent .createpost .post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.ComunityContent .createpost .inputt {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: gainsboro;
+    border: #b8b6b6 solid 1px;
+    border-radius: 60px;
+    padding: 10px;
+    color: #333;
+}
+
+.ComunityContent .createpost .bt {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ComunityContent .createpost .post-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #777;
+}
+
+.ComunityContent .post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    max-width: 700px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.ComunityContent .post .post-header {
+    display: flex;
+    align-items: center;
+}
+
+.ComunityContent .post .dropdown {
+    margin-left: 70%;
+}
+
+.ComunityContent .post .dropdown .dropdown-content {
+    right: 0;
+}
+
+.ComunityContent .post .post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.ComunityContent .post .date {
+    margin-left: 60px;
+}
+
+.ComunityContent .post .inputt {
+    width: 70%;
+    height: 70%;
+    background-color: gainsboro;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px;
+    color: #333;
+}
+
+.ComunityContent .post .post-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.ComunityContent .post .post-content {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.ComunityContent .post .post-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.ComunityContent .post .post-footer .commenticon {
+    /* margin-right: 100px; */
+    font-size: 18px;
+}
+
+.ComunityContent .post .post-footer .likeicon {
+    /* margin-left: 100px; */
+    font-size: 18px;
+    color: blue;
+}
+
+.ComunityContent .comment .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 50%;
+}
+
+.ComunityContent .comment .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.ComunityContent .comment .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ComunityContent .comment .dropdown-item {
+    display: block;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+}
+
+.ComunityContent .comment .date {
+    margin-left: 60px;
+}
+
+.ComunityContent .comment .comment-content {
+    margin-left: 20px;
+}
+
+.ComunityContent .comment .post-footer .commenticon {
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.ComunityContent .comment .post-footer .likeicon {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.hiddenfield {
+    display: none;
+}
+
+.ComunityContent .reply .name {
+    margin-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.ComunityContent .reply .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 80%;
+}
+
+.ComunityContent .reply .date {
+    margin-left: 40px;
+    margin-top: -40px;
+}
+
+.inputt2,
+.reply {
+    background-color: gainsboro;
+    color: black;
+    margin-top: 14px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+.reply {
+    margin-left: 30%;
+    width: 50%;
+}
+
+#like {
+    cursor: pointer;
+    color: black;
+}
+
+/******************************community end****************************/
+
+/*************************detect pet start*******************/
+.detectpetcontent {
+    background-image: url(..img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    text-align: left;
+}
+
+.detectpetcontent .detectabout {
+    background-color: white;
+    border: #9d9d9d solid 1px;
+    border-radius: 30px;
+    margin: 5% 20% 2% 20%;
+    height: fit-content;
+    text-align: left;
+    padding: 3% 5%;
+    font-family: Goudy Old Style;
+}
+
+.detectpetcontent .detectabout h1 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 50px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.detectpetcontent .detectabout p {
+    font-family: Goudy Old Style;
+    font-size: 25px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.detectpetcontent .detect h1 {
+    color: #CF6262;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    font-size: 50px;
+    margin-bottom: 3%;
+    margin-left: 25%;
+    text-align: left;
+}
+
+.detectpetcontent .detect .drop-title {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+}
+
+.detectpetcontent .detect input[type=file] {
+    width: 500px;
+    height: 65px;
+    max-width: 100%;
+    color: #444;
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid #cf6262;
+    margin-left: 100%;
+
+}
+
+.detectpetcontent .detect input[type=file]::file-selector-button {
+    margin-right: 40px;
+    height: 65px;
+    width: 150px;
+    border: none;
+    background: #CF6262;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.detectpetcontent button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: #cf6262 solid;
+    background-color: #CF6262;
+    color: white;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.detectpetcontent .detectresult {
+    background-color: white;
+    border: #9d9d9d solid 1px;
+    border-radius: 30px;
+    margin: 5% 20% 2% 20%;
+    height: fit-content;
+    text-align: left;
+    padding: 3% 5%;
+    font-family: Goudy Old Style;
+}
+
+/*************************detect pet end*******************/

@@ -1,0 +1,476 @@
+header .header {
+    background-color: #fff;
+    height: 45px;
+}
+
+header a img {
+    width: 134px;
+    margin-top: 4px;
+}
+
+.signup-container {
+    background-image: url(../img/YImages/l.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.signup-page {
+    background-image: url(../img/YImages/l.png);
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    height: 1210px;
+}
+
+.signin-container {
+    background-image: url(../img/YImages/new.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.signin-page {
+    background-image: url(../img/YImages/l.png);
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.signin-page .form .signin,
+.signiup-page .form .signup,
+.addpet-page .form .addpet,
+.reportpet-page .form .reportpet {
+    margin-top: -31px;
+    margin-bottom: 26px;
+}
+
+
+.form {
+    width: 550px;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    margin: 0 auto 100px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10%;
+    position: absolute;
+    left: 250px;
+    margin-top: -60px;
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #FFFFFF;
+    width: 100%;
+    border: 1;
+    border-color: #5AA5E9;
+    border-radius: 12px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.form .i2 {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #FFFFFF;
+    width: 100%;
+    height: 40px;
+    border: 1;
+    border-color: #E17E77;
+    border-radius: 12px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.form .i3 {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #FFFFFF;
+    width: 100%;
+    border: 1;
+    border-color: #E17E77;
+    border-radius: 12px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #3895ec;
+    width: 40%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    opacity: 0.9;
+
+}
+
+.blueButton {
+    background-image: linear-gradient(45deg, #5AA5E9, #499dec);
+}
+
+.form .b2 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #E17E77;
+    background-image: linear-gradient(45deg, #E17E77, #E17E77);
+    width: 40%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    opacity: 0.9;
+
+}
+
+button:hover {
+    opacity: 1
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 16px;
+}
+
+.form .message a {
+    color: #5AA5E9;
+    text-decoration: none;
+}
+
+.form .message2 a {
+    color: #E17E77;
+    text-decoration: none;
+}
+
+.form label,
+h3 {
+    color: #cf6262;
+}
+
+
+.reportpet-form2 label {
+    margin-top: -10px;
+}
+
+.as {
+    margin-top: -5px;
+}
+
+.check {
+    margin-right: 70px;
+    margin-left: 50px;
+    margin-top: -5px;
+}
+
+.reportpet-form2 {
+    height: 680px;
+}
+
+.reportpet-form2 label {
+    color: #E17E77;
+}
+
+.header2 {
+    color: #E17E77;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.images {
+    width: 40%;
+    height: 700px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.signupimage {
+    width: 645px;
+    height: 1200px;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+
+.signinimage {
+    width: 645px;
+    height: 900px;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+}
+
+
+.landbuttons {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #CF6262;
+    background-image: linear-gradient(45deg, #CF6262, #f37373);
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 40px;
+    opacity: 0.9;
+    margin-top: 23px;
+    margin-right: 90px;
+}
+
+.landbuttons:hover {
+    opacity: 1;
+    background-color: #d17a7a;
+}
+
+.form3 {
+    left: 500px;
+    top: 235px;
+}
+
+.profile {
+    border: 1px solid gray;
+    border-radius: 15%;
+    margin-top: -100px;
+    margin-bottom: 100;
+    margin-left: -70px;
+    width: 600px;
+    height: 600px;
+    background-color: #FFFFFF;
+    margin-bottom: 120px;
+}
+
+.inner {
+    border: 1px solid gray;
+    border-radius: 15%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 35px;
+    width: 530px;
+    height: 370px;
+    background-color: #FFFFFF;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin-top: -100px;
+    margin-left: 200px;
+
+}
+
+.edit {
+    margin-bottom: 40px;
+    margin-left: 550px;
+    display: inline;
+}
+
+h4 {
+    color: black;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.user {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    display: inline;
+}
+
+.about {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: inline;
+}
+
+h5 {
+    color: #CF6262;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.addpetinprofile {
+    border: 1px solid gray;
+    border-radius: 15%;
+    margin-top: -100px;
+    margin-bottom: 100;
+    margin-left: -70px;
+    width: 600px;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.addpetinaddpage {
+    border: none;
+    width: 400px;
+    margin: auto;
+}
+
+
+.mypets {
+    color: #CF6262;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-weight: bolder;
+}
+
+.yet {
+    margin-left: 130px;
+    color: #CF6262;
+}
+
+.add {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    outline: 0;
+    background-color: white;
+    width: 70%;
+    border: 3px solid #CF6262;
+    padding: 15px;
+    color: #CF6262;
+    font-size: 25px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 40px;
+    /* opacity: 0.9; */
+    margin-top: 70px;
+    display: block;
+}
+
+.dog {
+    width: 100px;
+    height: 120ps;
+    border-radius: 20%;
+    margin-left: 100px;
+}
+
+.r {
+    color: #CF6262;
+    margin-left: 152px;
+
+}
+
+.ADDNEW {
+    color: #CF6262;
+}
+
+#image {
+    border: 1px solid #E17E77;
+    border-radius: 12px;
+    width: 455px;
+}
+
+.addNewPet-form button {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    outline: 0;
+    width: 40%;
+    padding: 15px;
+    color: white;
+    background-color: #CF6262 !important;
+    font: #CF6262 !important;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.addButtons {
+    margin: auto;
+    display: flex;
+}
+
+.s3 {
+    height: 150px;
+}
+
+.profilepic {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.dogpic {
+    height: 160px;
+    width: 180px;
+    border-radius: 20%;
+    margin-top: 0px;
+}
+
+h1,
+h2 {
+    margin-left: 185px;
+    font-size: 50px;
+}
+
+/*..................................................................*/
+.pets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form3 {
+    height: 680px;
+}
+
+.container {
+    max-width: 1650px;
+}
+
+.form2 {
+    height: auto;
+    margin-top: 100px;
+}
+
+.image {
+    top: 165px;
+    height: 900px;
+    width: 600px;
+    left: 90px;
+    position: absolute;
+}
+
+/* ----------------------------------------------------------------------------------------- */
